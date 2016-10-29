@@ -6,27 +6,27 @@ class BHExifParser {
 	 */
 	public static $fieldNames = array(
 		'Model' => [
-			'friendly' => 'Model',
-			'description' => 'Camera model'
+			'friendly' => 'Modelo',
+			'description' => 'Modelo da Câmera'
 		],
 		'DateTime' => [
-			'friendly' => 'Taken',
-			'description' => 'When picture was taken.'
+			'friendly' => 'Data da Foto',
+			'description' => 'Quando a foto foi tirada.'
 		],
 		'Artist' => [
-			'friendly' => 'Photographer',
-			'description' => 'Who took the photo.'
+			'friendly' => 'Fotógrafo',
+			'description' => 'Quem tirou a foto.'
 		],
 		'Copyright' => [
-			'friendly' => 'Copyright',
-			'description' => 'The copyright notice.'
+			'friendly' => 'Direitos Autorais',
+			'description' => 'Aviso de direitos autorais.'
 		],
 		'ExposureTime' => [
-			'friendly' => 'Shutter speed',
-			'description' => 'The exposure time.'
+			'friendly' => 'Velocidade do Obturador',
+			'description' => 'Tempo de exposição.'
 		],
 		'FNumber' => [
-			'friendly' => 'Aperture',
+			'friendly' => 'Abertura',
 			'description' => 'The aperture f-stop.'
 		],
 		'ISOSpeedRatings' => [
@@ -34,8 +34,8 @@ class BHExifParser {
 			'description' => 'The ISO speed.'
 		],
 		'FocalLength' => [
-			'friendly' => 'Focal length',
-			'description' => 'What focal length the image was taken with (in mm).'
+			'friendly' => 'Distância Focal',
+			'description' => 'A distância focal da imagem foi tirada com (em mm).'
 		]
 	);
 
